@@ -210,7 +210,7 @@ footer {
 
 
 /*--------------------------------------------------------------Responsividad para dispositivos móviles------------------------------------------------- */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 header {
     position: fixed;
     width: 100%;
@@ -229,7 +229,7 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 12px;
     transition: color 0.3s;
 }
 
