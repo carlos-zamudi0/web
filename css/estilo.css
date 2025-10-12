@@ -211,42 +211,71 @@ footer {
 
 /*--------------------------------------------------------------Responsividad para dispositivos móviles------------------------------------------------- */
 @media (max-width: 600px) {
-  header {
-    padding: 10px 0;
-  }
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #242424;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 10;
+}
 
-  nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
-  nav a {
-    font-size: 14px;
-  }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #176dd5;
+}
+
 
   section {
     padding-top: 80px;
   }
-
-  h2 {
-    font-size: 24px;
+  #Inicio{
+    background-color: #f1f1f1;
   }
 
-  #Iniocio{
-    background-color: #f1f1f1;
+  #Inicio h2 {
+    font-size: 28px;
   }
   #Unidad1{
     background-color: #e2e2e2;
   }
+  #Unidad1 h2 {
+    font-size: 25px;
+  }
   #Unidad2{
     background-color: #dcdcdc;
   }
+
+  #Unidad2 h2 {
+    font-size: 25px;
+  }
+
   #Unidad3{
     background-color: #d6d6d6;
   }
+
+   #Unidad3 h2 {
+        font-size: 25px;
+   }
+
   #Unidad4{
      background-color: #cfcfcf;
+  }
+
+  #Unidad4 h2 {
+        font-size: 25px;
   }
 
   .contenedor-superior .caja {
@@ -263,8 +292,13 @@ footer {
   }
 
   footer {
-    font-size: 14px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  footer h3{
+    font-size: 16px;
+  }
+  footer p{
+    font-size: 12px;
   }
 }
