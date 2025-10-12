@@ -209,28 +209,42 @@ footer {
 }
 
 /* ----------------- Reglas responsivas para imágenes ----------------- */
-/* Clase utilitaria: hace que cualquier <img> escale con su contenedor */
 .img-responsive {
-    display: block;      /* elimina espacios en línea y facilita el centrado */
-    max-width: 100%;     /* no crecerá más que su contenedor */
-    height: auto;        /* mantiene la proporción */
+    display: block;      
+    max-width: 100%;     
+    height: auto;        
 }
 
-/* Ajustes específicos para las imágenes dentro de .caja en móviles */
 @media (max-width: 600px) {
-    /* Aumentar el tamaño de las imágenes dentro de las cajas para que sean fluidas */
     .caja img {
         max-width: 100%;
         height: auto;
     }
 
-    /* Opcional: reducir padding de cajas para ganar espacio en pantallas pequeñas */
+
     .contenedor-superior .caja {
         padding: 20px;
     }
 
-    /* Ajuste global de tipografía para móviles (opcional) */
     body {
         font-size: 18px;
     }
+}
+
+/* Contenedor responsivo para iframes (videos) - mantiene proporción 16:9 */
+.video-wrapper {
+    width: 100%;
+    max-width: 560px; /* ancho máximo para escritorio; puedes cambiarlo */
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
