@@ -215,7 +215,8 @@ header {
     position: fixed;
     width: 100%;
     background-color: #242424;
-    padding: 10px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     z-index: 10;
 }
 
