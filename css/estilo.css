@@ -208,6 +208,8 @@ footer {
     text-align: center;
 }
 
+
+/*--------------------------------------------------------------Responsividad para dispositivos móviles------------------------------------------------- */
 @media (max-width: 600px) {
   header {
     padding: 10px 0;
@@ -231,13 +233,29 @@ footer {
     font-size: 24px;
   }
 
+  #Iniocio{
+    background-color: #f1f1f1;
+  }
+  #Unidad1{
+    background-color: #e2e2e2;
+  }
+  #Unidad2{
+    background-color: #dcdcdc;
+  }
+  #Unidad3{
+    background-color: #d6d6d6;
+  }
+  #Unidad4{
+     background-color: #cfcfcf;
+  }
+
   .contenedor-superior .caja {
     width: 100%;
     padding: 20px;
   }
 
   .caja img {
-    max-width: 120px; /* Imagen aún más pequeña en móviles */
+    max-width: 120px;
   }
 
   .caja figcaption {
