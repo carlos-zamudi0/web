@@ -215,8 +215,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: #242424;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px 15px;
     z-index: 10;
 }
 
@@ -229,7 +228,7 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
     padding: 10px;
     transition: color 0.3s;
 }
