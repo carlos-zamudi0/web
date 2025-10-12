@@ -1,0 +1,236 @@
+/*-----------------------------------------------------Selector de tipos de mi diseño de CSS------------------------------------------------------------------------------*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #242424;
+    padding: 20px 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #176dd5;
+}
+
+
+section {
+    min-height: 100vh;
+    padding-top: 100px; 
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+footer {
+  background-color: #222;          
+  color: #fff;                     
+  padding-top: 40px;
+  padding-bottom: 40px;              
+  text-align: center;               
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 50px;                 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*--------------------------------Esta sección representa el diseño CSS para la seccion de Inicio---------------------------------------------------------------------------------------------------------*/
+
+#Inicio {
+    background-color: #e2efff;
+    color: #000;
+}
+
+#Inicio h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+/*--------------------------------Esta sección representa el diseño CSS para la seccion de Unidad1---------------------------------------------------------------------------------------------------------*/
+#Unidad1 {
+    background-color: #dae9fc;
+    color: #000000;
+}
+
+#Unidad1 h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+#Unidad1 .contenedor-superior p{
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+
+/*--------------------------------Esta sección representa el diseño CSS para la seccion de Unidad2---------------------------------------------------------------------------------------------------------*/
+#Unidad2 {
+    background-color: #d2e6ff;
+    color: #FFF;
+}
+#Unidad2 h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+#Unidad2 .contenedor-superior p{
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+#Unidad2 .contenedor-superior .caja {
+    flex: 50%;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/*--------------------------------Esta sección representa el diseño CSS para la seccion de Unidad3---------------------------------------------------------------------------------------------------------*/
+
+#Unidad3 {
+    background-color: #bedafb;
+    color: #FFF;
+}
+#Unidad3 h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+#Unidad3 .contenedor-superior p{
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+#Unidad3 .contenedor-superior .caja {
+    flex: 50%;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/*--------------------------------Esta sección representa el diseño CSS para la seccion de Unidad4---------------------------------------------------------------------------------------------------------*/
+#Unidad4 {
+    background-color: #a9caf4;
+    color: #fff9f9;
+}
+
+#Unidad4 h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+#Unidad4 .contenedor-superior p{
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+#Unidad4 .contenedor-superior .caja {
+    flex: 50%;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*--------------------------------Clases Usadas para el diseño de la One Page---------------------------------------------------------------------------------------------------------*/
+.contenedor-superior {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+
+.contenedor-superior .caja {
+    flex: 50%;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.contenedor-superior h3{
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+
+}
+.contenedor-superior p{
+    font-size: 12px;
+    color: #000;
+}
+
+.caja figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+}
+
+.caja img {
+    max-width: 200px;  
+    height: auto;      
+    display: block;
+    margin-bottom: 10px;
+}
+
+.caja figcaption {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+/* ----------------- Reglas responsivas para imágenes ----------------- */
+/* Clase utilitaria: hace que cualquier <img> escale con su contenedor */
+.img-responsive {
+    display: block;      /* elimina espacios en línea y facilita el centrado */
+    max-width: 100%;     /* no crecerá más que su contenedor */
+    height: auto;        /* mantiene la proporción */
+}
+
+/* Ajustes específicos para las imágenes dentro de .caja en móviles */
+@media (max-width: 600px) {
+    /* Aumentar el tamaño de las imágenes dentro de las cajas para que sean fluidas */
+    .caja img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Opcional: reducir padding de cajas para ganar espacio en pantallas pequeñas */
+    .contenedor-superior .caja {
+        padding: 20px;
+    }
+
+    /* Ajuste global de tipografía para móviles (opcional) */
+    body {
+        font-size: 18px;
+    }
+}
