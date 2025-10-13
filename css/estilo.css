@@ -216,7 +216,8 @@ header {
   align-items: center;          
   justify-content: space-between; 
   background: #242424;
-  padding: 10px 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
   z-index: 10;
 }
@@ -231,7 +232,8 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-size: 5px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     transition: color 0.3s;
 }
 
@@ -312,7 +314,8 @@ header {
   align-items: center;          
   justify-content: space-between; 
   background: #242424;
-  padding: 10px 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
   z-index: 10;
 }
@@ -327,7 +330,8 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-size: 5px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     transition: color 0.3s;
 }
 
