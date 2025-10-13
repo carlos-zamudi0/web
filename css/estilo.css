@@ -304,3 +304,99 @@ nav a:hover {
     font-size: 12px;
   }
 }
+
+/*--------------------------------------------------------------Responsividad para dispositivos móviles------------------------------------------------- */
+@media (max-width: 1000px) {
+header {
+  display: flex;                
+  align-items: center;          
+  justify-content: space-between; 
+  background: #242424;
+  padding: 10px 20px;
+  color: white;
+  z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #176dd5;
+}
+
+
+  section {
+    padding-top: 80px;
+  }
+  #Inicio{
+    background-color: #ff7a7a;
+  }
+
+  #Inicio h2 {
+    font-size: 28px;
+  }
+  #Unidad1{
+    background-color: #fa8080;
+  }
+  #Unidad1 h2 {
+    font-size: 25px;
+  }
+  #Unidad2{
+    background-color: #fc8888;
+  }
+
+  #Unidad2 h2 {
+    font-size: 25px;
+  }
+
+  #Unidad3{
+    background-color: #f88a8a;
+  }
+
+   #Unidad3 h2 {
+        font-size: 25px;
+   }
+
+  #Unidad4{
+     background-color: #f69494;
+  }
+
+  #Unidad4 h2 {
+        font-size: 25px;
+  }
+
+  .contenedor-superior .caja {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .caja img {
+    max-width: 120px;
+  }
+
+  .caja figcaption {
+    font-size: 12px;
+  }
+
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer h3{
+    font-size: 16px;
+  }
+  footer p{
+    font-size: 12px;
+  }
+}
