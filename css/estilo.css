@@ -242,7 +242,7 @@ footer {
 
 
 /*--------------------------------------------------------------Responsividad para dispositivos móviles------------------------------------------------- */
-@media (width <= 600px) {
+@media (max-width: 780px) {
 header {
   display: flex;                
   align-items: center;          
