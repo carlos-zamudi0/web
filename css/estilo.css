@@ -275,11 +275,6 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 18px;
-  transition: background 0.25s ease;
-}
-
-nav ul li a:hover {
-  background: #176dd5;
 }
 
 nav ul li ul {
@@ -294,14 +289,6 @@ nav ul li ul {
   min-width: 180px;      
   border-radius: 6px;    
   overflow: hidden;      
-}
-
-nav ul li:hover ul {
-  display: block;
-}
-
-nav ul li:hover ul {
-  display: block;
 }
 
 
@@ -370,38 +357,53 @@ nav ul li:hover ul {
   }
 }
 
-/*--------------------------------------------------------------Responsividad para dispositivos Tablets------------------------------------------------- 
+/*--------------------------------------------------------------Responsividad para dispositivos Tablets-------------------------------------------------*/
 @media (max-width: 1000px) {
 header {
+  position: fixed;   
+  width: 100%;
   display: flex;                
   align-items: center;          
   justify-content: space-between; 
-  background: #242424;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background: #222;
+  padding: 10px 20px;
   color: white;
   z-index: 10;
 }
-
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+    
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  gap: 0;        
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    transition: color 0.3s;
+nav ul li {
+  position: relative; 
 }
 
-nav a:hover {
-    color: #176dd5;
+nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 
+nav ul li ul {
+  display: none;         
+  position: absolute;    
+  top: 100%;             
+  left: 0;
+  background: #000000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 180px;      
+  border-radius: 6px;    
+  overflow: hidden;      
+}
 
   section {
     padding-top: 80px;
@@ -467,4 +469,4 @@ nav a:hover {
     font-size: 12px;
   }
 }
-  */
+  
