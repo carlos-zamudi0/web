@@ -8,14 +8,20 @@
 </head>
 <body>
     <header> <!-- Yo hize uso de la etiqueta header y nav para poder dar esa estructura y diseño a mi barra de la página donde puedes cambiar de sección en sección -->
-        <nav>
-            <a href="#Inicio">Inicio</a>
-            <a href="#Unidad1">Unidad 1</a>
-            <a href="#Unidad2">Unidad 2</a>
-            <a href="#Unidad3">Unidad 3</a>
-            <a href="#Unidad4">Unidad 4</a>
-            <a href="#InfoPersonal">Sobre mi</a>
-        </nav>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li>
+          <a href="#" aria-haspopup="true" aria-expanded="false">Otros Lugares</a>
+          <ul role="menu" aria-label="Submenú de Proyectos">
+            <li><a href="#Unidad1" role="menuitem">Unidad 1</a></li>
+            <li><a href="#Unidad2" role="menuitem">Unidad 2</a></li>
+            <li><a href="#Unidad3" role="menuitem">Unidad 3</a></li>
+            <li><a href="#Unidad4" role="menuitem">Unidad 4</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
     </header>
     <main>   <!--Aquí use esta etiqueta main para dar esa estructura de la página y colocar todos los elementos de la página algo así como un contenedor--> 
         <section id="Inicio"> <!-- Primer section de la página: Donde doy uso de Un h2 para el titulo y h3 para subtitlulos + los diferentes parrafos de información -->
