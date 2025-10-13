@@ -307,7 +307,7 @@ nav a:hover {
   }
 }
 
-/*--------------------------------------------------------------Responsividad para dispositivos móviles------------------------------------------------- */
+/*--------------------------------------------------------------Responsividad para dispositivos Tablets------------------------------------------------- 
 @media (max-width: 1000px) {
 header {
   display: flex;                
@@ -404,3 +404,4 @@ nav a:hover {
     font-size: 12px;
   }
 }
+  */
