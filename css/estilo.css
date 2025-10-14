@@ -412,20 +412,23 @@ nav ul li ul {
   }
 
   #Inicio h2 {
-    font-size: 28px;
+    font-size: 35px;
+    color: #FFF;
   }
   #Unidad1{
     background-color: #fa8080;
   }
   #Unidad1 h2 {
-    font-size: 25px;
+    font-size: 35px;
+    color: #FFF;
   }
   #Unidad2{
     background-color: #fc8888;
   }
 
   #Unidad2 h2 {
-    font-size: 25px;
+    font-size: 35px;
+    color: #FFF;
   }
 
   #Unidad3{
@@ -433,7 +436,8 @@ nav ul li ul {
   }
 
    #Unidad3 h2 {
-        font-size: 25px;
+        font-size: 35px;
+        color: #FFF;
    }
 
   #Unidad4{
@@ -441,7 +445,8 @@ nav ul li ul {
   }
 
   #Unidad4 h2 {
-        font-size: 25px;
+        font-size: 35px;
+        color: #FFF;
   }
 
   .contenedor-superior .caja {
@@ -449,23 +454,31 @@ nav ul li ul {
     padding: 20px;
   }
 
+  .contenedor-superior h3{
+    font-size: 25px;
+  }
+
+  .contenedor-superior p{
+    font-size: 14px;
+  }
+
   .caja img {
-    max-width: 120px;
+    max-width: 200px;
   }
 
   .caja figcaption {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   footer h3{
-    font-size: 16px;
+    font-size: 20px;
   }
   footer p{
-    font-size: 12px;
+    font-size: 16px;
   }
 }
   
